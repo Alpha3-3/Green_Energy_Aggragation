@@ -4,7 +4,7 @@ import seaborn as sns
 
 # Load the datasets
 outage_df = pd.read_csv('Aggregated_Outage_Events.csv')
-grouped_df = pd.read_csv('Grouped_By_FIPS_List.csv')
+grouped_df = pd.read_csv('DS/Grouped_By_FIPS_List.csv')
 
 # Convert 'durations_hrs' and 'sums' from string to list of floats
 outage_df['durations_hrs'] = outage_df['durations_hrs'].apply(lambda x: [float(i) for i in x.strip('[]').split(',')] if pd.notnull(x) else [])

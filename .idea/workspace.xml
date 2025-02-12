@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17b860c0-03a9-4dc9-bf7e-324ef02ebb1d" name="Changes" comment="v1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Population/Population data concate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temperature/Assign FIPS to counties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group data centers by fip codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group data centers by fip codes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data center to fip.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS/Data center to fip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group data centers by fip codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS/Group data centers by fip codes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Population data concate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Correlation analysis for a lot of new variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregate outages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Outage/aggregate outages.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +43,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/My notes/UW/HPDIC Lab/OPDR/wiki-news-300d-1M/fasttext test",
+    "last_opened_file_path": "D:/My notes/UW/HPDIC Lab/Green Energy/Merge/Merge/Temperature",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Temperature" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Temperature" />
+      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Outage" />
+      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\DS" />
+      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Population" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735627692737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1">
+      <created>1737577116867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737577116867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
