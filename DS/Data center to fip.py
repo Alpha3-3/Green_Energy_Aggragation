@@ -19,7 +19,7 @@ merge_ba_carbon['geometry'] = merge_ba_carbon.apply(
 data_centers_gdf = gpd.GeoDataFrame(merge_ba_carbon, geometry='geometry', crs='EPSG:4326')
 
 # Load the shapefile of US counties (replace with the actual path to your shapefile)
-counties_gdf = gpd.read_file('../Population/tl_2024_us_county.shp')
+counties_gdf = gpd.read_file('tl_2024_us_county.shp')
 
 # Print columns to find the FIPS code column name
 print(counties_gdf.columns)

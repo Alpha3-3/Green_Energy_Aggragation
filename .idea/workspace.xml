@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b860c0-03a9-4dc9-bf7e-324ef02ebb1d" name="Changes" comment="v1">
-      <change afterPath="$PROJECT_DIR$/Population/Population data concate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temperature/Assign FIPS to counties.py" afterDir="false" />
+    <list default="true" id="17b860c0-03a9-4dc9-bf7e-324ef02ebb1d" name="Changes" comment="before adding temperature data">
+      <change afterPath="$PROJECT_DIR$/Let's try to do some ML magics here.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Population/Education data concate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Population/Merge to once file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Population/Poverty data concate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Population/Unemployment data concate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data center to fip.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS/Data center to fip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group data centers by fip codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS/Group data centers by fip codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inspect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Population data concate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Correlation analysis for a lot of new variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregate outages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Outage/aggregate outages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Correlation analysis for a lot of new variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Correlation analysis for a lot of new variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/Data center to fip.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS/Data center to fip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Population/Population data concate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Population/Population data concate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/My notes/UW/HPDIC Lab/Green Energy/Merge/Merge/Temperature",
+    "last_opened_file_path": "D:/My notes/UW/HPDIC Lab/Green Energy/Merge/Merge",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -55,9 +56,9 @@
       <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Temperature" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\DS" />
       <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Temperature" />
       <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Outage" />
-      <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\DS" />
       <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Population" />
     </key>
   </component>
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737577116867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="before adding temperature data">
+      <created>1739339059773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739339059773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="before adding temperature data" />
+    <option name="LAST_COMMIT_MESSAGE" value="before adding temperature data" />
   </component>
 </project>
