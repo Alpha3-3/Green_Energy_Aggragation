@@ -1,29 +1,29 @@
 import pandas as pd
 
 # Define file paths
-input_file = 'PopulationEstimates.csv'
-output_file = 'Processed_PopulationEstimates.csv'
+input_file = 'Unemployment2023.csv'
+output_file = 'Processed_Unemployment2023.csv'
 
 try:
     # Read the CSV file with encoding handling
     df = pd.read_csv(input_file, encoding='ISO-8859-1', dtype=str)
 
     # Ensure necessary columns exist
-    required_columns = {'FIPStxt', 'Attribute'}
+    required_columns = {'FIPS_Code', 'Attribute'}
     if not required_columns.issubset(df.columns):
         raise ValueError(f"One or more required columns {required_columns} are missing in the CSV file.")
 
     # Filter rows where 'Attribute' contains '2023'
     df_filtered = df[df['Attribute'].str.contains('2023', na=False)]
 
-    # Reshape the dataframe to have 'FIPStxt' as key and 'Attribute' values as columns
-    df_pivoted = df_filtered.pivot(index='FIPStxt', columns='Attribute', values='Value')
+    # Reshape the dataframe to have 'FIPS_Code' as key and 'Attribute' values as columns
+    df_pivoted = df_filtered.pivot(index='FIPS_Code', columns='Attribute', values='Value')
 
     # Reset index to flatten the dataframe
     df_pivoted.reset_index(inplace=True)
 
     # Rename the key column for clarity
-    df_pivoted.rename(columns={'FIPStxt': 'fips_code'}, inplace=True)
+    df_pivoted.rename(columns={'FIPS_Code': 'fips_code'}, inplace=True)
 
     # Save the processed data to a new CSV file
     df_pivoted.to_csv(output_file, index=False, encoding='utf-8')
