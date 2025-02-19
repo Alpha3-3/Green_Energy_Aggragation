@@ -7,4 +7,4 @@ Code for analyzing the impact of data center and other factors on power outage.
 1. Data cleaning.
 2. Aggregate events.
 # Correlation Analysis - statistical methods
-# Correlation Analysis - ML methods
+# Correlation Analysis - ML methods (In progress)
