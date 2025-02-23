@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b860c0-03a9-4dc9-bf7e-324ef02ebb1d" name="Changes" comment="before adding temperature data">
-      <change afterPath="$PROJECT_DIR$/Let's try to do some ML magics here.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Population/Education data concate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Population/Merge to once file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Population/Poverty data concate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Population/Unemployment data concate.py" afterDir="false" />
+    <list default="true" id="17b860c0-03a9-4dc9-bf7e-324ef02ebb1d" name="Changes" comment="Need to do ML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Correlation analysis for a lot of new variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Correlation analysis for a lot of new variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/Data center to fip.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS/Data center to fip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Population/Population data concate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Population/Population data concate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Outage and DS.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,6 +56,53 @@
       <recent name="D:\My notes\UW\HPDIC Lab\Green Energy\Merge\Merge\Population" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Outage and DS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Outage and DS" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Outage and DS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Outage and DS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739339059773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Need to do ML">
+      <created>1739960777434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739960777434</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
     <MESSAGE value="before adding temperature data" />
-    <option name="LAST_COMMIT_MESSAGE" value="before adding temperature data" />
+    <MESSAGE value="Need to do ML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to do ML" />
   </component>
 </project>
